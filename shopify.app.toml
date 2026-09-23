@@ -2,7 +2,7 @@
 
 client_id = "9115424c9ef2fbfb4d8f27083146c6c1"
 name = "womance-inventory"
-application_url = "https://example.com"
+application_url = "https://womance-inventory.vercel.app"
 embedded = true
 
 [build]
@@ -24,7 +24,7 @@ api_version = "2026-10"
 scopes = "write_products,read_inventory,read_locations,read_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://womance-inventory.vercel.app/auth/callback" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
